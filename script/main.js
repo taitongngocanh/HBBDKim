@@ -6,8 +6,8 @@ window.addEventListener('load', () => {
         showCancelButton: true,
         confirmButtonColor: '#3085d6',
         cancelButtonColor: '#d33',
-        confirmButtonText: 'Có',
-        cancelButtonText: 'Có nha :)))',
+        confirmButtonText: 'Music',
+        cancelButtonText: 'No Music:)))',
     }).then((result) => {
         if (result.isConfirmed) {
             document.querySelector('.song').play();
